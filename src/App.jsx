@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Login from './components/Login';
 import HomePage from './components/HomePage';
 import ContactPage from "./components/contactApp/ContactPage";
-import InventoryPage from "./components/inventoryApp/InventoryPage";
+import InventoryPage from "./components/inventoryApp/ProductList";
 import {InventoryProvider} from "./context/InventoryProvider";
 import UserContext from './context/UserContext';
 import ContactProvider from "./context/ContactProvider";
